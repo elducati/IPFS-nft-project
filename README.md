@@ -1,15 +1,11 @@
-# Basic Sample Hardhat Project
+# IPFS Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
+Launch your own NFT collection and store its metadata on IPFS
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+There should only exist 10 LearnWeb3 Punk NFT's and each one of them should be unique.
+User's should be able to mint only 1 NFT with one transaction.
+The metadata for the NFT's should be stored on IPFS
+There should be a website for your NFT Collection.
+The NFT contract should be deployed on Mumbai testnet
 ```
